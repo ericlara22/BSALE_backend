@@ -1,7 +1,6 @@
 import express from "express";
 import morgan from "morgan";
 import productRoutes from "./routes/products.routes";
-import categoryRoutes from "./routes/categories.routes";
 
 const app = express();
 
@@ -16,6 +15,5 @@ app.use(express.json());
 //Routes
 
 app.use("/products", productRoutes);
-app.use("/categories", categoryRoutes);
 
 export default app;
