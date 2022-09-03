@@ -6,6 +6,7 @@ import categoryRoutes from "./routes/categories.routes";
 const app = express();
 
 //Settings
+
 app.set("port", 4000);
 
 //Middlewares
